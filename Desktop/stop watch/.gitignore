@@ -1,0 +1,13 @@
+# VS Code の設定フォルダ（ローカル専用のため不要）
+.vscode/
+
+# Windows のシステムフォルダ（Git に入れる必要なし）
+AppData/
+
+# Node.js のパッケージフォルダ（GitHub にはアップロードせず、後で `npm install` で取得可能）
+node_modules/
+
+# 一時ファイルや OS の不要なファイルを無視
+.DS_Store
+Thumbs.db
+*.log
